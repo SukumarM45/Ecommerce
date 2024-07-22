@@ -1,0 +1,18 @@
+.para{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    height: 80%;
+    padding: 60px;
+    background-image: linear-gradient(black
+    ,white);
+    box-shadow: 100px 5px 10px 10px rgba(0,0,0,0,15);
+    border-radius:80px;
+}
+.img{
+     background-position: 10%;
+    width: 1200px;
+    height: 1000px;
+}

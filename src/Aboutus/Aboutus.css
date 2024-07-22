@@ -1,0 +1,31 @@
+
+.about-us-page {
+    background-image: url('../SpecificItemPage/Images/about.avif'); /* Add the path to your background image */
+    background-size: cover;
+   background-position: center;
+   min-height: 800px;
+    
+    
+  }
+  
+  .about-us-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transform: translate(0%, 30%);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,195 @@
+.total {
+    margin-top: 25vh;
+    margin-top: 0%;
+    height: 400px;
+}
+
+
+.specific-item-page1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* transform: translate(0, 25%); */
+  }
+  
+  .specific-item-image1 {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    /* position: relative; */
+  }
+  
+  .image-container1 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image.active1 {
+    opacity: 1;
+  }
+  
+  .forward-button {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    background-color: #6c6c92;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .forward-button:hover {
+    background-color: #8766a3;
+  }
+
+  
+
+  
+  .specific-item-image img1 {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  
+  .specific-item-details1 {
+    margin-left: 1px;
+    flex: 1; 
+
+  } 
+
+  
+  
+  .specific-item-title1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .specific-item-description1 {
+    font-size: 16px;
+    margin-bottom: 1px;
+
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+  
+  .specific-item-price1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .button-containe1r1 {
+    flex: 0 0 auto; /* Prevent stretching */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: flex-end; /* Align buttons to the end of the column */
+  }
+  
+  .specific-item-button:hover1 {
+    background-color: #e8eaec;
+  }
+  .specific-item-button1, 
+  .specific-item-buttonbuy1 {
+    background-color: #007bff;
+    color: #261717;
+    border: none;
+    padding: 10px 100px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+     margin-left: 10px; 
+  }
+  .specific-item-buttonbuy1 { 
+    background-color: #ff0000;
+  }
+  
+  .dark-theme {
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  .theme-toggle-button1 {
+    position: fixed; /* Fixed position to keep the button in view even when scrolling */
+    top: 15%;
+    right: 10px;
+    background-color: #007bff;
+    color: #151414;
+    border: none;
+    cursor: pointer;
+    z-index: 999; /* Ensure the button is on top of other elements */
+  }
+  
+  
+  .dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+  }
+  
+  .dialog-content {
+    color: black;
+  }
+  
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-image {
+    float: right;
+    width: 70px;
+    height: 100px;
+    margin-left: 20px;
+  }
+  
+  .product-description {
+    margin-top: 20px;
+    font-size: larger;
+  }
+  
+  .product-details {
+    margin-top: 20px;
+  }
+  
+  .product-details button {
+    margin-right: 10px;
+  }
+  .suku{
+    border: 5px solid black;
+     padding: 20px;
+    margin: 10px;
+  }
